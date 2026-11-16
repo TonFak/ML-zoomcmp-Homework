@@ -15,7 +15,7 @@ EXCLUDED_FEATURES = ["duration"]
 
 XGB_PARAMS = {
     "eta": 0.1,
-    "max_depth": 10,
+    "max_depth": 5,
     "min_child_weight": 10,
     "objective": "binary:logistic",
     "eval_metric": "auc",
